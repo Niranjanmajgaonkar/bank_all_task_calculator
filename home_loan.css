@@ -30,7 +30,7 @@ margin: 30px 30px 30px 30px
     margin: 30px 30px 30px 30px
   }
   body{
-    background-color:papayawhip;
+    background-color:white;
   
     background-repeat: no-repeat;
   }
@@ -73,4 +73,7 @@ margin-left: 70px;
   }
   #headtitle{
     color: red;
+  }
+  .k{
+    background-color:aliceblue;
   }

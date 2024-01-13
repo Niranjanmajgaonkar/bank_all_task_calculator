@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="personal_loan.css">
+</head>
+
+<body>
+    <div class="tophead">
+        <!-- <img src="Screenshot 2024-01-13 105522.png" width="100px"> -->
+        <marquee direction="left">
+            <h1 id="headtitle">Personal Loan Monthly EMI Calculator</h1>
+        </marquee>
+    </div>
+    <div class="home">
+        <div class="innerhome">
+            <form>
+                <div class="first_home k">
+                    <h1>Loan Amount</h1>
+                    <input type="range" value="0" min="0" max="10000000" step="10" id="principle_amt">
+                    <input type="text" value="0" id="principle_lable"><br><br>
+                </div>
+                <div class="second_home k">
+                    <h1>Rate of Interest yearly</h1>
+                    <input type="range" value="0" min="0" max="36" id="rate_of_interest">
+                    <input id="innerlable" type="text" value="0"><br><br>
+                </div>
+                <div class="third_home k">
+                    <h1>Year Of Loan</h1>
+                    <input id="years" type="range" min="" max="100" value="0">
+                    <input id="years_lable" type="text" value="0"><br><br>
+                </div>
+                <div class="four_home k">
+                    <div id="first_four">
+                        <h1 id="ans"></h1>
+                    </div>
+                    <div class="second_four">
+                        <h3 id="home_principle"></h3>
+                        <h3 id="home_rate"></h3>
+                        <h3 id="home_years"></h3>
+                        <button id="Calculate_btn">Calculate</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="personal_loan.js"></script>
+</body>
+
+</html>
