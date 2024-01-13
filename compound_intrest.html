@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loan Calculator</title>
+
+  <link rel="stylesheet" href="compound_intrest.css">
+</head>
+
+<body>
+ <div class="tophead"><img src="shutterstock_2262832611-min-min.jpg" width="100px">
+ <marquee  direction="left"><h1 id="headtitle">Campound Intrest Calculator</h1></marquee>
+</div>
+  <div class="home">
+    <div class="innerhome">
+      <form>
+        <div class="first_home k">
+        <h1>Principle Amount</h1>
+        <input type="range" value="0" min="0" max="10000000" step="10" id="principle_amt">
+        <input type="text" value="0" id="principle_lable"><br><br>
+      </div>
+      <div class="second_home k">
+        <h1>Rate Of Intrest</h1>
+        <input type="range" value="0" min="0" max="36" id="rate_of_intrest">
+        <input id="innerlable" type="text"><br><br>
+      </div>
+      <div class="third_home k">
+        <h1>Year Of Loan</h1>
+        <input id="years" type="range" min="" max="100" value="0">
+        <input id="years_lable" type="text" value="0"><br><br>
+      </div>
+      <div class="four_home k">
+      <div id="first_four">
+        <h1 id="ans"></h1>
+      </div>
+      <div class="second_four">
+        <h3 id="home_intrest"></h3>
+        <h3 id="home_principle"></h3>
+        <h3 id="home_rate"></h3>
+        <h3 id="home_years"></h3>
+        
+        <button id="Calculate_btn">Calculate</button>
+      </div>
+      </div>
+      </form>
+    </div>
+
+  </div>
+  <script src="compound_intrest.js"></script>
+</body>
+
+</html>
